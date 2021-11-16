@@ -160,3 +160,60 @@ header ul li a:hover {
   font-weight: 600;
   line-height: 23px;
 }
+
+/*Footer Section*/
+footer {
+  background: linear-gradient(135deg, #020720 0%, #1D1E54 100%);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 74px 5% 31px 5%;
+}
+
+#footer-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+#footer-logo h5 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 52px;
+  margin-left: 15px;
+}
+
+#footer-logo span {
+  color: #79F5BE;
+}
+
+.footer-container h6 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+  color: #79F5BE;
+}
+
+.footer-container p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+
+#quick-links ul {
+  list-style: none;
+}
+
+#quick-links a {
+  display: block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+  color: #fff;
+}
