@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Jost', sans-serif;
+}
+
+.hero-container {
+  background-image: url("images/Hero.png");
+  background-size: cover;
+  height: 545px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5% 10px 5%;
+  align-items: center;
+}
+
+#logo:hover {
+  cursor: pointer;
+}
+
+header ul li {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+  transition: all ease-in-out 250ms;
+}
+
+header ul li a:hover {
+  color: #79F5BE;
+}
+
+.hero-container h1 {
+  color: white;
+  font-size: 96px;
+  padding-top: 100px;
+}
+
+/*About Us Section Styling*/
+.about-us {
+  background: linear-gradient(135deg, #1D1E54 0%, #020720 100%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 100px 0;
+}
+
+.about-us-text {
+  max-width: 450px;
+  margin-right: 65px;
+}
+
+.about-us-text h3 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.about-us-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.about-us img {
+  margin-left: 65px;
+}
