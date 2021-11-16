@@ -65,11 +65,22 @@ header ul li a:hover {
 .about-us-text h3 {
   font-size: 36px;
   font-weight: 600;
+  
 }
 
-.about-us-text {
+.about-us-text h3::after {
+  content: "";
+  display: block;
+  background-color: #79F5BE;
+  height: 5px;
+  width: 125px;
+  margin-top: 10px;
+}
+
+.about-us-text p {
   font-size: 18px;
   font-weight: 500;
+  margin-top: 15px;
 }
 
 .about-us img {
