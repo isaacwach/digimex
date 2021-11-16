@@ -86,3 +86,77 @@ header ul li a:hover {
 .about-us img {
   margin-left: 65px;
 }
+
+/*Our Team Section Styling*/
+.our-team {
+  background-image: url("images/team-bg.png");
+  max-height: 990px;
+  padding-top: 35px;
+}
+
+.our-team h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.our-team h3::after {
+  content: "";
+  display: block;
+  background-color: #79F5BE;
+  height: 5px;
+  width: 125px;
+  margin-top: 10px;
+  margin: auto;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 65px 5% 80px 5%;
+}
+
+.team-item {
+  max-width: 590px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 10px 20px 10px;
+}
+
+.team-item-text {
+  max-width: 345px;
+  margin-left: 20px;
+}
+
+.team-item-text h4 {
+  color: #79F5BE;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.team-item-text h5 {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 43px;
+}
+
+.team-item-text hr {
+  height: 3px;
+  width: 345px;
+  background-color: #79F5BE;
+  margin: 11px 0 11px 0;
+}
+
+.team-item-text p {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23px;
+}
