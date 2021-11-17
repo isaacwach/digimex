@@ -48,7 +48,6 @@
     animation-duration: 3s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    /* animation: animate 1.5s linear infinite; */
 }
 @keyframes textzoom {
     0%{
@@ -60,27 +59,7 @@
         text-transform: uppercase;
     }
 }
-/* @keyframes animate
-{
-    0%
-    {
-        transform: translateY(0px);
-    }
-    10%
-    {
-        transform: translateY(-30px);
-    }
-    0%
-    {
-        transform: translateY(0px);
-    }
-    0%
-    {
-        transform: translateY(0px);
-    }
-} */
 
-/* help section */
 
 .help {
     display: flex;
