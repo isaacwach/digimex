@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <section class="intro">
+        <div class="header" style="background-image: url('images/headerbackg.png')">
+            <div class="nav">
+                <div class="logo">
+                    <img src="images/Logo 2 1Logo.png" alt="">
+                    <h2>Digimex</h2>
+                </div>
+                <div class="nav-link">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="heading">
+                <h1>Contact Us</h1>
+
+            </div>
+        </div>
+    </section>
+    <section class="help">
+        <div class="support">
+            <h3>Technical Support</h3>
+            <img src="images/Rectangle 11 (1).png" alt="">
+            <p>Are you having troubles accessing or using our website</p>
+            <button>Get help</button>
+        </div>
+        <div class="pricing">
+            <h3>Pricing & Licensing</h3>
+            <img src="images/Rectangle 11 (1).png" alt="">
+            <p>Have questions about prices or mechanic licencing</p>
+            <button href="" class="button1">Get answers</button>
+        </div>
+        <div class="advice">
+            <h3>Advice</h3>
+            <img src="images/Rectangle 11 (1).png" alt="">
+            <p>need clarification about our site or the services offered</p>
+            <button href="" class="button1">Enquire</button>
+        </div>
+    </section>
+    <div class="popup">
+        <div class="popup-content">
+            <img src="images/close.jpeg" alt="close" class="close">
+            <input type="text" placeholder="Enter your name" required>
+            <input type="text" placeholder="Enter the enquiry subject" required>
+            <textarea name="" id="textar" cols="30" rows="10" placeholder="Enter your question" required></textarea><br>
+            <a href="#" class="button">Enquire</a>
+        </div>
+    </div>
+    <section class="contact" style="background-image: url('images/Desktop\ -\ 1\ \(1\).png')">
+        <h1>Contact Information</h1>
+        <div class="columns">
+            <div class="description">
+                <p>We are committed to give you the support <br>you need.
+                    Our team will give you all the support <br>
+                    or help you need when using
+                    our website or you requireour services. <br>
+                    we provide client support 24/7.<br>
+                    Feel free to get intoch with our
+                    customer care any time you need help.
+                </p>
+                <div class="phone">
+                    <h4>Phone</h4>
+                    <p>020-34-555 555</p>
+                    <h4>Email</h4>
+                    <p>digimex@org.com</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="form" action="">
+                    <h5>Give us a feedback about the <br>services you received</h5>
+
+                    <h6>Username</h6>
+                    <input id="name" name="name" type="text" placeholder="Enter your Username" pattern="[a-z]{0-100}">
+
+                    <h6>Email</h6>
+                    <div class="inputBox">
+                        <input id="email" name="email" type="text" placeholder="Enter your email"
+                            onkeydown="validation()">
+                        <span id="text"></span>
+                    </div>
+
+                    <h6>Message</h6>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10"
+                        placeholder="write your message here"></textarea>
+                    <div class="btn3">
+                        <button type="submit">Send message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>
