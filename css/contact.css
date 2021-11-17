@@ -84,7 +84,8 @@
 .help {
     display: flex;
     padding-top:20px;
-    margin-left: 120px;
+    margin-left: 90px;
+    margin-right: 50px;
 }
 .support, .pricing, .advice {
     padding-left: 50px;
@@ -196,7 +197,7 @@ input {
    background-color: #0A0E30;
    margin-right:50px;
    box-sizing: border-box;
-   height: 800px;
+   height: 840px;
    opacity: 80%;
 }
 .contact .contact-form form {
@@ -225,8 +226,8 @@ input {
 .contact .contact-form form button {
     height:50px;
     width:300px;
-    color:white;
-    background-color: #326CCD;
+    color: black;
+    background-color: #79F5BE;
     font-size:24px;
     border:0px;
     margin: auto;
