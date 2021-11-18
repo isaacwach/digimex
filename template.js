@@ -50,9 +50,10 @@ class myFooter extends HTMLElement {
                 </div>
                 <div id="quick-links">
                 <h6>Quick Links</h6>
-                <a href="#">Home</a>
-                <a href="#">Services</a>
-                <a href="#">Contact Us</a>
+                <a href="index.html">Home</a>
+                <a href="section.html">Services</a>
+                <a href="about-us.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
                 </div>
                 <div>
                 <h6>Subscribe for more info</h6>
