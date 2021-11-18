@@ -262,7 +262,7 @@ footer hr {
   text-align: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .team-item {
     flex-direction: column;
     justify-content: center;
