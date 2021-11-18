@@ -8,7 +8,10 @@
 
 .hero-container {
   background-image: url("images/Hero.png");
+  background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
   height: 545px;
   text-align: center;
 }
@@ -26,7 +29,7 @@ header {
 
 header ul li {
   display: inline-block;
-  margin-right: 80px;
+  margin-left: 80px;
 }
 
 header ul li a {
@@ -52,14 +55,15 @@ header ul li a:hover {
   background: linear-gradient(135deg, #1D1E54 0%, #020720 100%);
   color: white;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 100px 0 100px 0;
+  gap: 130px;
 }
 
 .about-us-text {
   max-width: 450px;
-  margin-right: 65px;
 }
 
 .about-us-text h3 {
@@ -83,14 +87,10 @@ header ul li a:hover {
   margin-top: 15px;
 }
 
-.about-us img {
-  margin-left: 65px;
-}
-
 /*Our Team Section Styling*/
 .our-team {
   background-image: url("images/team-bg.png");
-  max-height: 990px;
+  min-height: 990px;
   padding-top: 35px;
 }
 
