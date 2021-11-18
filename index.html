@@ -9,41 +9,15 @@
     <script src="https://kit.fontawesome.com/a70663aaec.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/styles.css">
+    <script type="module" src="template.js"></script>
+    <link rel="stylesheet" href="css/template.css">
     <title>Digimex</title>
 </head>
 
 <body>
     <div class="main">
         <div class="landing">
-            <div class="navigation">
-                <nav class="navbar navbar-expand-md">
-                    <div class="logo"><img src="images/Logo 2 1.png" alt=""></div>
-                    <button class="mnubtn navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                        Menu
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end marg" id="collapsibleNavbar">
-                        <ul class="navbar-nav">
-                            <li  class="nav-item">
-                                <a id="link"  href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a id="link"  href="section.html">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a id="link"  href="about-us.html">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a id="link"  href="contact.html">Contact Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <button class="est" data-toggle="modal" data-target="#estimate">
-                                    Get an Estimate
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+            <my-header></my-header>
             <!-- homepage content -->
             <div class="home">
                 <h1>Vehicle</h1>
@@ -145,31 +119,7 @@
                 </div>
             </div>
             <!-- footer section -->
-            <div class="footer">
-                <div class="row">
-                    <div class=" col-md-4">
-                        <img src="images/Logo 2 1.png " width="30" alt=""> <b>Digi<span>mex</span></b>  <br>
-                        Contact Us <br>
-                        +254 726 333 333 <br>
-                        digimex@org.com
-                    </div>
-                    <div class=" col-md-4">
-                        <span>Quick Links</span> <br>
-                        <a href="index.html">Home</a> <br>
-                        <a href="section.html">Services</a> <br>
-                        <a href="contact.html">Contact us</a>
-                    </div>
-                    <div class=" col-md-4">
-                        Subscribe for more info <br>
-                        <form action="">
-                            <input type="text" placeholder="Enter your email">
-                            <button>Subscribe</button>
-                        </form> <br>
-                        <a href="">Contact us</a>
-                    </div>
-                </div>
-                
-            </div>
+            <my-footer></my-footer>
         </div>
     </div>
     <!-- popup content -->
