@@ -115,7 +115,7 @@ button:hover{
     padding-top: 50px;
     padding-right: 10%;
 }
-.footer{
+/* .footer{
     background-color: #040925;
     color:#fff;
     text-align: left;
@@ -139,7 +139,7 @@ button:hover{
 }
 .footer button{
     background-color: #77f0be;
-}
+} */
 #mdl{
     background-color: rgb(45,50,109, 0.8);
     text-align: center;
